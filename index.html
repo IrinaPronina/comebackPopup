@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ComeBack</title>
+  <link rel="preload" href="fonts/gothampro_black.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/gothampro_bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/gothampro_regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="body">
+  <div class="site-container">
+    <h1 class="sr-only">Камбэк попап</h1>
+    <div class="popup open" id="flat">
+      <div class="popup__overlay">
+        <div class="popup__content">
+          <button class="popup__close popup-close" aria-label="Закрыть модальное окно">
+            <svg shape-rendering="geometricPrecision" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 15" width="15"
+              height="15" data-prefix="img8g1a3b">
+              <path
+                d="M9.5 7.5l5.1 5.1c.6.6.6 1.5 0 2-.6.6-1.5.6-2 0L7.5 9.5l-5.1 5.1c-.6.6-1.5.6-2 0-.6-.6-.6-1.5 0-2l5.1-5.1L.4 2.4C-.2 1.8-.2.9.4.4s1.5-.6 2 0l5.1 5.1L12.6.4c.6-.6 1.5-.6 2 0 .6.6.6 1.5 0 2L9.5 7.5z"
+                class="path-icn1o68jw"></path>
+            </svg>
+          </button>
+          <div class="popup__inner">
+            <div class="popup__left">
+              <div class="popup__back">
+                <div class="popup__plan">
+                  <img class="popup__pic" src="/images/text.png" alt="">
+                  <svg class="popup__arrow" width="122" height="65" viewBox="0 0 122 65" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M2 1.49999C2 0.947709 1.55228 0.499997 0.999994 0.5C0.447709 0.500003 -3.45707e-06 0.947722 0 1.50001L2 1.49999ZM121.854 56.5198C122.141 56.048 121.992 55.4328 121.52 55.1457L113.831 50.4675C113.359 50.1804 112.744 50.3302 112.457 50.802C112.17 51.2738 112.32 51.889 112.792 52.1761L119.626 56.3345L115.468 63.1688C115.18 63.6406 115.33 64.2558 115.802 64.5429C116.274 64.8299 116.889 64.6802 117.176 64.2084L121.854 56.5198ZM0 1.50001C0.000125647 21.4084 11.2393 39.9758 32.0252 51.1925C52.7988 62.4027 83.0662 66.2631 121.237 56.9716L120.764 55.0284C82.9338 64.2369 53.2013 60.3473 32.975 49.4325C12.7609 38.5242 2.00012 20.5916 2 1.49999L0 1.50001Z"
+                      fill="#F3CE00" />
+                  </svg>
+                </div>
+                <svg class="popup__ellipse" width="403" height="376" viewBox="0 0 403 376" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g filter="url(#filter0_f_0_55)">
+                    <ellipse cx="188.594" cy="187.856" rx="81.892" ry="38.7446"
+                      transform="rotate(-25.1315 188.594 187.856)" fill="#0D0D0D" />
+                  </g>
+                  <defs>
+                    <filter id="filter0_f_0_55" x="-25.3657" y="0.458984" width="427.92" height="374.793"
+                      filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                      <feGaussianBlur stdDeviation="69" result="effect1_foregroundBlur_0_55" />
+                    </filter>
+                  </defs>
+                </svg>
+                <img class="popup__img" src="/images/book.png" alt="">
+              </div>
+            </div>
+            <div class="popup__right">
+              <div class="popup__descr">
+                <div class="popup__text">
+                  <img class="popup__img popup__img--mob" src="/images/book.png" alt="">
+                  <h2 class="popup__title">мастер-класс?</h2>
+                  <p>Скачайте пошаговый план</p>
+                  <h3 class="popup__subtitle">&laquo;Как собственнику выйти из&nbsp;операционки&raquo;</h3>
+                  <p>и познакомьтесь с этим инструментом <b>прямо сейчас</b></p>
+                  <small>10 шагов помогут создать системный бизнес</small>
+                </div>
+                <div class="popup__form">
+                  <label class="popup__label" for="email"> Для получения бонуса введите email </label>
+                  <input class="popup__input input-email" type="email" name="email" placeholder="Ваш e-mail"
+                    required="required" />
+                  <div class="popup__btn">
+                    <button href="" class="popup__download" type="submit">Скачать пошаговой план</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
